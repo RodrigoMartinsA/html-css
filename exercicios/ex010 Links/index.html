@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links Externos</title>
+</head>
+<body>
+    <h1>Links Externos</h1>
+    <p>Usamos a tag &lt;a&gt; para introduzir os links externos ou interno mesmo.</p>
+    <a href="http://www.google.com" target="_blank" rel="externos">Entra no Google</a>
+    <h2>Usando Target</h2>
+    <ol>
+        <li>_blank</li>
+        <ul type="square">
+            <li>vai abrir o link em uma nova janela em branco.</li>
+            <a href="https://www.google.com" target="_blank">Google com _blank</a>
+        </ul>
+        <li>_self</li>
+        <ul type="square">
+            <li>Vai abrir o link na janela ou frame atual(Padrão).</li> <!-- Basicamente já faz isso, sem precisar adicionar o "_self" -->
+            <a href="https://www.google.com" target="_self">Google com _self</a>
+        </ul>
+        <li>_top</li>
+        <ul type="square">
+            <li>vai desfazer todos os frames e abrir o destino no navegador completo.</li>
+            <a href="https://www.google.com" target="_top">Google com _top</a>
+        </ul>
+        <li>_parent</li>
+        <ul type="square">
+            <li>Similar ao uso do _top em uma referência à janela mãe.</li>
+            <a href="https://www.google.com" target="_parent">Google com _parent</a>
+        </ul>
+    </ol>
+    <h2>Usando Rel</h2>
+    <ol>
+        <li>Next</li>
+        <ul>
+            <li>Indica que p link é para a próxima parte do documento atual.</li>
+            <a href="https://www.google.com" target="_blank" rel="next">Google com next</a>
+        </ul>
+        <li>Prev</li>
+        <ul>
+            <li>Indica que o link é para a parte anterior do documento atual.</li>
+            <a href="https://www.google.com" target="_blank" rel="prev">Google com Prev</a>
+        </ul>
+        <li>Author</li>
+        <ul>
+            <li>Indica que é um link para o site do autor do artigo atual.</li>
+            <a href="https://www.google.com" target="_blank" rel="author">Google com Author</a>
+        </ul>
+        <li>External</li>
+        <ul>
+            <li>Indica que é um link para outro site que não faz parte do site atual.</li>
+            <a href="https://www.google.com" target="_blank" rel="external">Google com External</a>
+        </ul>
+        <li>Nofollow</li>
+        <ul>
+            <li>Indica que pe um link para um site não endossado, como um link pago.</li>
+            <a href="https://www.google.com" target="_blank" rel="nofollow">Google com Nofollow</a>
+        </ul>
+    </ol>
+
+    <h1>Links Internos</h1>
+    <p><a href="pagina002.html" rel="next">Ir para a primeira segunda</a></p>
+    <p><a href="noticias/pag003.html">Ir para a terceira página</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip">Baixar o livro em ZIP</a></li>
+    </ul>
+</body>
+</html>

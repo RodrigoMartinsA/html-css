@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex001 Parág/favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            #       = id
+            .       = class
+            :       = pseudo-class
+            ::      = pseudo-element
+            >       = clildren
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{ /* Cor dos links visitados */
+            color: darkred; /* Cor dos links visitados */
+        }
+
+        a:hover{
+            color: black; /* Cor dos links ao passar o mouse */
+            text-decoration: underline; /* Sublinha o link ao passar o mouse */
+        }
+
+        a:active{ /* Cor dos links quando clicados */
+            color: yellow; /* Cor dos links quando clicados */
+        }
+
+        .especial{
+            background-color: rgb(255, 140, 140);
+        }
+
+        .especial::before{
+            content: '⇒ '; /* Adiciona texto antes do link */
+        }
+
+        .especial::after{
+            content: ' ⇐';/* Adiciona texto após o link */
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" class="especial">Site do Curso em Video</a></li>
+    </ul>
+    
+</body>
+</html>

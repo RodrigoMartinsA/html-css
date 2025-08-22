@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "exercicios",
+			"path": "exercicios"
+		},
+		{
+			"name": "Desafios",
+			"path": "Desafios"
+		},
+		{
+			"path": "../POO JAVA"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"Aula02/src/Aulas/Aula13",
+			"Aula02/src/Aulas/Aula12",
+			"Aula02/src/Aulas/Aula11",
+			"Aula02/src/Aulas/Aula10",
+			"Aula02/src/Aulas/Aula09",
+			"Aula02/src/Aulas/Aula07",
+			"Aula02/src/Aulas/Aula06",
+			"Aula02/src/Aulas/Aula05",
+			"Aula02/src/Aulas/Aula04",
+			"Aula02/src/Aulas/Aula03",
+			"Aula02/src/Aulas/Aula02",
+			"Aula02/src/Aulas/Aula14"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"java.dependency.syncWithFolderExplorer": false
+	}
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex001 Parág/favicon.ico" type="image/x-icon">
+    <title>Exemplo Houver</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none; /* Esconde o parágrafo inicialmente */
+        }
+
+        div:hover > p{
+            display: block; /* Exibe o parágrafo ao passar o mouse */
+            font-weight: bold;
+            color: white;
+            background-color: red;
+        }
+        div:hover{
+            color: red; /* Cor do texto ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse sobre o texto a baixo</p>
+    <div>Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>

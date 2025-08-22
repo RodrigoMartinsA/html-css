@@ -1,0 +1,128 @@
+/* Estrelas no fundo */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  font-family: sans-serif;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: url("https://raw.githubusercontent.com/ManzDev/cursos-assets/gh-pages/starfield/stars.png") repeat;
+  animation: estrelas 100s linear infinite;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+@keyframes estrelas {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-100px, 100px);
+  }
+}
+
+/* Gotas de chuva */
+.chuva .raindrop {
+  position: absolute;
+  top: -30px;
+  font-size: 1em;
+  font-weight: bold;
+  color: pink;
+  text-shadow: 0 0 5px white;
+  opacity: 0.8;
+  animation: cair-diagonal linear infinite;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+@keyframes cair-diagonal {
+  0% {
+    transform: translate(0, 0) rotate(-20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50px, 100vh) rotate(-20deg);
+    opacity: 0;
+  }
+}
+
+/* Conteúdo */
+.container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mensagem {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+}
+
+.texto-principal {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.texto-secundario {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Coração animado */
+.icone-coracao {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  margin: 30px auto;
+  transform: rotate(-45deg);
+  animation: pulsar 1s infinite;
+}
+
+.icone-coracao::before,
+.icone-coracao::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.icone-coracao::before {
+  top: -40px;
+  left: 0;
+}
+
+.icone-coracao::after {
+  left: 40px;
+  top: 0;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: rotate(-45deg) scale(1);
+  }
+  50% {
+    transform: rotate(-45deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(-45deg) scale(1);
+  }
+}
