@@ -40,3 +40,10 @@ h2{
 .destaque{
     background-color: #d7d19a;
 }
+
+nav > button{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}

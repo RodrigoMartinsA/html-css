@@ -17,3 +17,10 @@ h2 {
 p {
     text-align: justify;
 }
+
+nav > a > button{
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
