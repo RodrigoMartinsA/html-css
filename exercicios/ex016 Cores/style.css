@@ -29,3 +29,17 @@ h2{
 p{
     text-align: justify;
 }
+
+button{
+    background-color: #F09204;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px #804e03;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}

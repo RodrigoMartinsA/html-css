@@ -21,12 +21,12 @@
             margin: auto;
             outline: 5px solid salmon;  /*Tamanho, formade borda e cor da borda, funciona em todos.*/
         }
-        a:hover{
+        p > a:hover{
             color: #fff;
             background-color: #000;
             text-decoration: none;
         }
-        a{
+        p > a{
             color: #000;
             text-decoration: none;
             font-weight: bold;
@@ -35,12 +35,24 @@
             margin : auto;
 
         }
+        button{
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
 
     </style>
 </head>
 <body>
     <h1>Aprendendo Box</h1>
     <p>Parágrafos também são exemplos de box-level mas os <a href="#">links são exemplos de caixas inline-level</a> Vamos ver se tudo funciona.</p>
+
+    <nav>
+        <a href="https://rodrigomartinsa.github.io/html-css/exercicios/Ex021%20Boxes/boxes02.html#">
+            <button>Próximo Exercício</button>
+        </a>
+    </nav>
     
 </body>
 </html>
