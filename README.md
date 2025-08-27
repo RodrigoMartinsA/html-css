@@ -18,7 +18,7 @@ Estou aprendendo acriar sites e agora vou gerenciar o meu repositório.
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/ex014%20Estilos%20Locais/index.html'>Exercício 014</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/ex015%20Estilos%20Externos/index.html'>Exercício 015</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/ex016%20Cores/cor01.html'>Exercício 016</a></li>
-    <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/ex017%20fontes/fonte01.html'>Exercício 017</a></li>
+    <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex017%20fonte/fonte01.html'>Exercício 017</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex018%20Fontes%202/fontes01.html'>Exercício 018</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex019%20Usando%20ID%20e%20Class/index.html'>Exercício 019</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex020%20Seletores%20Personalizados/houver.html'>Exercício 020</a></li>
