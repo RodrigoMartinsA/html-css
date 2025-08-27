@@ -23,5 +23,5 @@ Estou aprendendo acriar sites e agora vou gerenciar o meu repositório.
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex019%20Usando%20ID%20e%20Class/index.html' target='_blank'>Exercício 019</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex020%20Seletores%20Personalizados/houver.html' target='_blank'>Exercício 020</a></li>
     <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex021%20Boxes/boxes01.html#' target='_blank'>Exercício 021</a></li>
-    <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex22/fundo001.html' target='_blank'>Exercício 022</a></li>
+    <li><a href='https://rodrigomartinsa.github.io/html-css/exercicios/Ex022/fundo001.html' target='_blank'>Exercício 022</a></li>
 </ul>
