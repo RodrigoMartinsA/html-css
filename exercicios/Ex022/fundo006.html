@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vt;
             background-color: black;
             background-image: url('../Ex022/imagens-cap19/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            /*
+            background-attachment: fixed;
+            
+            /* Background-size
             Contain: Faz com que a imagem seja mostrada inteira sem perder a qualidade original da imagem e nem as suas dimenções.
             
             Cover: Faz com que a imagem seja mostrada independente do que acontecer com a imagem sem perder a qualidade e ainda assim oculpando 100% da viewport.
             */
+
+            /* Background-attachment
+            Scroll: Faz com que a imagem de fundo role junto com o conteúdo da página.
+
+            fixed: Faz com que a imagem de fundo fique fixa, ou seja, não se move quando o conteúdo da página é rolado.
+
+            local: Faz com que a imagem de fundo role junto com o conteúdo da página, mas apenas quando o conteúdo está dentro de um elemento com barra de rolagem.
+            */
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            background: black url('../Ex022/imagens-cap19/wallpaper002.jpg') center center no-repeat cover fixed;
+            
+            Dentro da shorthand não funciona o size
+            */
         }
+        
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 40px;
             margin: auto;
             border: 1px solid #000;
             border-radius: 15px;
+
         }
     </style>
 </head>
