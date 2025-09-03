@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+:root{
+    --titulo:'Passion One', cursive;
+    --paragrafo: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;  /*Tamanho mínimo da ViewHeight */
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps; /*Deixa as letras maiúsculas sem ser tão intenso */
+    /*poderíamos usar "text-transform: uppercase;" Deixa tudo em letra maiúscula*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header > a, footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
