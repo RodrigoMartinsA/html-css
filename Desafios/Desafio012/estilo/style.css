@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 :root{
-    --titulo:'Passion One', cursive;
-    --paragrafo: 'Sriracha', cursive;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
 }
 
 * {
@@ -15,6 +16,7 @@
 html, body{
     min-height: 100vh;  /*Tamanho mínimo da ViewHeight */
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{
@@ -27,13 +29,15 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps; /*Deixa as letras maiúsculas sem ser tão intenso */
     /*poderíamos usar "text-transform: uppercase;" Deixa tudo em letra maiúscula*/
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {
     padding-bottom: 50px;
 }
 
-header > a, footer > a{
+header > p > a, footer > p > a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -50,6 +54,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -63,7 +69,7 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display:inline-block;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
