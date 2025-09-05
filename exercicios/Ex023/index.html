@@ -11,21 +11,19 @@
 
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
-        tr {
-            background-color: white;
-        }
-
-        tr.cor{
-            background-color: aquamarine;
-        }
-
         td{
-            text-align: center;
+            text-align: center; /* Alinhamento Horizontal*/
+            vertical-align: middle; /* Alinhamento Vertical */
             border: 1px solid black;
             padding: 8px;
+        }
+
+        .numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -39,22 +37,22 @@
     -->
 
     <table>
-        <tr class="cor">
+        <tr>
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="normal">
+        <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
-        <tr class="cor">
+        <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
-        <tr class="normal">
+        <tr>
             <td>A4</td>
             <td>B4</td>
             <td>C4</td>
