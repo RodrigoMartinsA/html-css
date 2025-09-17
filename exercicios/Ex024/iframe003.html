@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        #tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            background-position: right center;
+        }
+        
+        button{
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fugit neque explicabo fuga voluptatibus, doloremque aut alias ex ut aliquid nisi saepe culpa ipsum dolorum quia reiciendis, quisquam esse illo assumenda officiis aspernatur facere? Quas veniam ipsum, quae, voluptatibus ut doloribus esse ab dignissimos ad aliquam sequi consectetur eligendi, reprehenderit praesentium rem sunt! Possimus odio eum officia. Magnam vero aperiam voluptates doloribus eum quisquam perspiciatis tempore vel consectetur amet harum explicabo fugit, non cumque ipsa quam voluptate? Temporibus, molestiae, et deleniti tempore sed aperiam explicabo quod distinctio animi recusandae deserunt veritatis similique placeat alias, doloremque dolores voluptatem perspiciatis velit fugiat.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda Página</a></li> <!-- Usamos o Target para abrir o site dentro do Iframe  com o name="frame"-->
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur harum eum voluptas, voluptate nam maxime quis nostrum sunt ipsa, sit eaque, adipisci quasi voluptatum fugit laborum accusamus ut amet nesciunt? Aperiam sequi debitis iste sint ea reiciendis deserunt accusantium numquam amet distinctio, nemo ex tenetur voluptatibus. Dicta alias explicabo magni, quasi omnis totam aspernatur dolorem unde? Dolor voluptatem suscipit iste unde veniam, itaque laudantium et soluta culpa sunt consequuntur consectetur doloribus distinctio! Sapiente reprehenderit, expedita vel doloremque, culpa veritatis omnis officia voluptatum modi excepturi temporibus vitae, ad illum laborum! Reiciendis illum quis neque voluptate totam aliquam nisi animi officia qui!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt reiciendis perferendis facilis magni esse sed voluptas facere? Iusto sint odio fugit ex, laudantium placeat illo accusamus numquam minima esse. Error, culpa deleniti! Laboriosam, aperiam? Cumque ipsam quaerat incidunt quasi, provident ex ad earum minima rem quidem neque eos, sit esse ab pariatur repellendus quis deleniti, autem in enim. Sunt quibusdam id voluptatum quaerat reiciendis nemo commodi, praesentium saepe cumque vero tenetur molestiae quod vel rem officia odio obcaecati, animi suscipit? Accusantium officia tenetur neque earum, consequuntur, odio vero ex omnis asperiores ullam cupiditate rerum libero. Laudantium nihil nobis labore.</p>
+    
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções a cima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt reiciendis perferendis facilis magni esse sed voluptas facere? Iusto sint odio fugit ex, laudantium placeat illo accusamus numquam minima esse.</p> <img src='https://hips.hearstapps.com/hmg-prod/images/most-popular-dog-breeds-kerry-blue-terrier-68096bdb872b7.jpg?crop=0.668xw:1.00xh;0.0833xw,0&resize=480:* 640w, https://hips.hearstapps.com/hmg-prod/images/most-popular-dog-breeds-kerry-blue-terrier-68096bdb872b7.jpg?crop=0.668xw:1.00xh;0.0833xw,0&resize=980:* 980w, https://hips.hearstapps.com/hmg-prod/images/most-popular-dog-breeds-kerry-blue-terrier-68096bdb872b7.jpg?crop=0.668xw:1.00xh;0.0833xw,0&resize=1200:* 1200w, https://hips.hearstapps.com/hmg-prod/images/most-popular-dog-breeds-kerry-blue-terrier-68096bdb872b7.jpg?crop=0.668xw:1.00xh;0.0833xw,0 1440w'>"> <!-- Só funciona com o name -->
+        <p>Infelizmente o seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <nav>
+        <a href="https://rodrigomartinsa.github.io/html-css">
+            <button>Home Page</button>
+        </a>
+    </nav>
+</body>
+</html>
