@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus odit eum maiores voluptatem dolorem ratione. Eaque beatae assumenda tempore quis eligendi similique omnis voluptatibus? Labore odio corrupti unde itaque dignissimos accusamus accusantium praesentium sequi, omnis magni, cupiditate excepturi a non sit sint in quam est eveniet. Non accusamus tempora autem consequuntur distinctio eius sapiente porro consequatur nisi praesentium repudiandae incidunt quam quia cumque, adipisci nulla esse debitis a perspiciatis! Magni rem aliquid nemo eligendi blanditiis architecto perspiciatis suscipit quaerat, at, modi eaque iure, quisquam deleniti asperiores magnam. Sunt dolorum neque, molestiae nostrum quae accusamus maiores. Sint eius ratione tenetur dolores.</p>
+            
+            <p>Laborum est, aspernatur velit consequuntur vero assumenda provident magnam, quisquam eligendi quae qui repellat praesentium necessitatibus earum excepturi recusandae ipsam fugiat sint? Quaerat, sint cupiditate iusto quo soluta quae necessitatibus harum, facere dolores nemo, tempora ea blanditiis? Ducimus vel mollitia nobis ut cum omnis odit iste laboriosam odio, aspernatur voluptas iusto harum laborum? Ullam at quibusdam officia pariatur magnam perspiciatis illo debitis cum aliquam maxime quia perferendis, consequuntur nihil cumque sunt exercitationem provident fuga cupiditate dolores sint! Saepe ea in dignissimos eos! Numquam, nesciunt harum voluptas assumenda fuga nulla cum recusandae, quasi molestiae est ullam voluptatibus ipsam dolorum vitae magni?</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus dolor modi perferendis dolorem saepe inventore nostrum perspiciatis pariatur, quaerat et veritatis ipsa accusantium incidunt harum sunt laudantium debitis autem!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
