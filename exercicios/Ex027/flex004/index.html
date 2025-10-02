@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0%;
+        }
+        .container{ /* PAI */
+            background-color: lightsalmon;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:flex;
+            /*
+                JUSTIFY-CONTENT:
+                    FLEX-START: 
+
+                    FLEX-END:
+
+                    CENTER: 
+
+                    SPACE-BETWEEN: Coloca os blocos no star e end no MAIN-AXIS dando um espaço entre os outros blocos
+
+                    SPACE-EVENLY: Divide os blocos com espaços, sem enconstar no star e end.
+
+                    SPACE-ARROUND: Divide o width total do elemento pai {.container} e distribui espaços iguais ao redor de cada bloco, incluindo antes do primeiro e depois do último, mas esses espaços externos são metade do espaço entre os blocos.
+            */
+            align-items:flex-start;
+
+            /*
+                ALIGN-ITEMS:
+                    STREATCH: Estica o conteúdo até o tamanho completo do .CONTAINER
+
+                    CENTER: Coloca o item no meio do tamanho completo do .CONTAINER
+
+                    FLEX-START: Coloca os itens no start do main-axis
+
+                    FLEX-END: Coloca os itens no end do main-axis
+            */
+        }
+
+        .item { /* FILHO */
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .imagem {
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A </div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <div class="imagem">
+        <img class= "imagem1" src="imagens/justify-content.png" alt="Justify-Content">
+        <img class= "imagem" src="imagens/justify-content-column.png" alt="">
+    </div>
+    
+</body>
+</html>

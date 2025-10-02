@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        .container{ /* PAI */
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-direction: column;
+            /*
+                FLEX-DIRECTION
+                    ROW: Sem informar a direction será em ROW (linha/ da ESQUERDA para a DIREITA)
+
+                    ROW-REVERSE: o inverso do ROW (DIREITA PARA ESQUERDA)
+
+                    COLUMN: Coloca em coluna (CIMA PARA BAIXO)
+
+                    COLUMN-REVERSE: MESMA COLUNA (BAIXO PARA CIMA)
+            */
+        }
+
+        .item { /* FILHO */
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .imagem {
+            width: 96.2vw;
+            height: 100vh;
+            background: url(imagens/flex\ axis2.png) no-repeat;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A </div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <div class="imagem">
+
+    </div>
+    
+</body>
+</html>
